@@ -1,0 +1,99 @@
+/* -------------------------------- LOGO --------------------------------- */
+div.img {
+    width: 351px;
+    height: 113px;
+    margin:auto;
+}
+
+/* ------------------------------ GRAY PART ------------------------------ */
+div.gray {
+    width:90%;
+    height: 62px;
+    background-color: #eee;
+    text-align: center;
+    margin:0 auto;
+}
+div.gray p {
+    padding: 0;
+    margin: 0 auto;
+}
+div.gray input#text {
+    width: 317px;
+    margin:0 auto;
+}
+div.gray input#btn-1 {
+    width: 104.94px;
+    height: 21px;
+    margin:0 auto;
+    padding:1px 6px;
+    cursor: pointer;
+}
+div.gray input#btn-2 {
+    width: 110.42px;
+    height: 21px;
+    margin:0 auto;
+    padding:1px 6px;
+    cursor: pointer;
+}
+
+/* ----------------------------------- TURQUOISE PART ------------------------------ */
+div.container {
+    width: 90%;
+    height:76px;
+    margin: auto;
+}
+div.part-1 {
+    width:37%;
+    height: 76px;
+    background-color: #7ee5da;
+    text-align: center;
+    margin:2px auto;
+    float: left;
+}
+div.part-1 p {
+    padding-top:8px;
+    margin:0 auto;
+}
+div.part-2 {
+    width: 19.6%;
+    height: 76px;
+    background-color:#70ccc2;
+    text-align: center;
+    margin:2px;
+    float: left;
+}
+div.part-2 a {
+    padding-bottom:0;
+    margin:0 auto;
+    font-size:smaller;
+}
+div.part-3 {
+    width: 43%;
+    height: 76px;
+    background-color: #62b3aa;
+    text-align: center;
+    font-size:small;
+    margin:2px auto;
+    float: left;
+}
+div.part-3 form {
+    display: inline;
+}
+div.part-3 p {
+    padding:0;
+    margin:0 auto;
+}
+div.part-3 input#btn-3 {
+    width: 75.28px;
+    height: 21px;
+    padding:1px 6px;
+    cursor: pointer;
+}
+a:active {
+color: red;
+} 
+.end {
+    text-align: center;
+    font-size: small;
+}
+ 
