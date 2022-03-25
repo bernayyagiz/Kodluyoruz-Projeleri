@@ -18,3 +18,6 @@ Buradaki projeler [Patika.dev](https://www.patika.dev/tr) Front-End Web Developm
 
 ## Bootstrap Ödev-3
 [Demo](https://raw.githack.com/bernayyagiz/Kodluyoruz-Projeleri/main/Bootstrap%20%C3%96dev-3/index.html)
+
+## Bootstrap Medium Klon
+[Demo](https://raw.githack.com/bernayyagiz/Kodluyoruz-Projeleri/main/Bootstrap%20Medium%20Klon/index.html)
