@@ -1,0 +1,49 @@
+body {
+    background-color: silver;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.navbar-custom {
+    background-color:#800000;
+}
+.cardtext {
+    color:#800000;
+    font-size: 1.5em;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.text {
+    color: black;
+    font-size: 18px;
+}
+.img-1{
+    height: 400px;
+}
+.img-2{
+    height: 300px;
+}
+.heart {
+    color: black;
+    fill:currentColor;
+    position: absolute;
+    top:90%;
+}
+.hpos {
+    position: absolute;
+    top:88%;
+}
+.hrt-1 {
+    margin-left: 15%;
+    padding-left: 15%;
+}
+.hrt-2 {
+    margin-left: 25%;
+    padding-left: 25%;
+}
+.heart:hover {
+    color:#800000;
+    fill:currentColor;
+}
+.bt:hover {
+    background-color: gray;
+}
+.material-icons.md-30 { font-size:30px; }
