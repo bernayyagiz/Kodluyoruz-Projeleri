@@ -11,3 +11,6 @@
 
 ## Bootstrap Ödev-1
 [Demo](https://raw.githack.com/bernayyagiz/Kodluyoruz-Projeleri/main/Bootstrap%20%C3%96dev-1/index.html)
+
+## Bootstrap Ödev-2
+[Demo](https://raw.githack.com/bernayyagiz/Kodluyoruz-Projeleri/main/Bootstrap%20%C3%96dev-2/index.html)
