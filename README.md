@@ -1,4 +1,5 @@
 # Kodluyoruz-Projeleri
+Buradaki projeler [Patika.dev](https://www.patika.dev/tr) Front-End Web Development Patikası için hazırlandı.
 
 ## CSS Ödev-1
 [Demo](https://raw.githack.com/bernayyagiz/Kodluyoruz-Projeleri/main/CSS%20%20%C3%96dev-1/index.html)
