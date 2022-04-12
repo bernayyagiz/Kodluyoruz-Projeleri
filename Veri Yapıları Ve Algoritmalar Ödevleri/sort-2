@@ -1,0 +1,41 @@
+ARRAY:
+[16,21,11,8,12,22]
+
+SIRALAMA ADIMLARI:
+1- Dizi 2 tane 3 elemanlı diziye ayrılır.
+[16,21,11]   [8,12,22]
+
+2- Oluşan 2 dizide yine ikiye ayrılır.
+[16,21]  [11]      [8,12]  [22]
+
+3- Yine diziler ikiye ayrılır.
+[16] [21]  [11]     [8] [12]  [22]
+
+4- 2. adımdaki gibi diziler tekrardan birleştirilir aynı zamanda kendi içlerinde sıralanır.
+[16,21]  [11]     [8,12]  [22]
+
+5- 1. adımdaki gibi diziler tekrardan birleştirilir aynı zamanda kendi içlerinde sıralanır.
+[11,16,21]     [8,12,22]
+
+6- 5. adımdaki 2 dizi tekrardan birleştirilir aynı zamanda kendi içlerinde sıralanır.
+[8,11,12,16,21,22]
+
+BIG O NOTATION GÖSTERİMİ:
+     [16,21,11|8,12,22]
+        /          \
+    [16,21,11]    [8,12,22]
+    /     \         /    \
+[16,21] [11]     [8,12]  [22]
+  /  \    \       /  \     \
+[16] [21] [11]   [8] [12] [22]
+  \   /    |      \   /    |
+ [16,21]  [11]    [8,12]  [22]
+    \      /         \     /
+   [11,16,21]       [8,12,22]
+        \              /
+       [8,11,12,16,21,22]
+
+Her adımda eleman sayısı yarıya bölündüğünden 2^x = n --> x = logn --> O(logn)
+Birleştirme adımlarında dizi boyutu kadar işlem yapıldığından O(n)
+SONUÇ:O(nlogn)
+
